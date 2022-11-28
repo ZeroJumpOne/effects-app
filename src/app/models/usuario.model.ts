@@ -10,3 +10,5 @@ export class Usuario {
         public avatar: string) {}
 
 }
+
+export let usuarioEmpty: Usuario = new Usuario(0, '', '', '', '');
